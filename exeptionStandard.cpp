@@ -10,5 +10,7 @@ int main(){
     try{
         array<int, 3> data = { 10, 20, 30 };
         //Pesan array integer 3 elemen
+        cout << data.at(5) << endl;
+        //Memanggil Array elemen ke-5
     }
 }
