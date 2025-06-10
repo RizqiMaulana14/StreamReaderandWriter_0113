@@ -7,9 +7,9 @@ int main(){
         throw 0.5; //Melemparkan sebuah integer maka,
         cout << "Pernyataan tidak akan dieksekusi" << endl;        
     }
-    catch(int a)
-    {
-        std::cerr << e.what() << '\n';
+    catch(int a){
+        //Blok ini akan dieksekusi
+        cout << "pengecualian akan dieksekusi" << end;
     }
     
 }
