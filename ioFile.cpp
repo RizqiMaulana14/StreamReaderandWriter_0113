@@ -9,4 +9,8 @@ int main(){
     ofstream outfile;
     //Menunjuk ke sebuah nama file
     outfile.open("contohfile.txt");
+    //Unlimited loop untuk menulis 
+    while(true){
+        
+    }
 }
